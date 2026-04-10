@@ -1,0 +1,11 @@
+ryu-manager qos_controller.py
+sudo mn -c
+sudo mn --topo single,3 --controller remote --switch ovsk
+
+pingall
+
+h3 /usr/bin/iperf -s &
+h1 /usr/bin/iperf -c 10.0.0.3
+h2 /usr/bin/iperf -c 10.0.0.3
+
+sudo ovs-ofctl dump-flows s1

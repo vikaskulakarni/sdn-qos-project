@@ -1,0 +1,8 @@
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=353.423s, table=0, n_packets=1, n_bytes=98, idle_age=353, priority=100,ip,in_port=1,dl_dst=26:ac:f8:f9:88:96,nw_src=10.0.0.1,nw_dst=10.0.0.2 actions=output:2
+ cookie=0x0, duration=353.412s, table=0, n_packets=1, n_bytes=98, idle_age=353, priority=10,ip,in_port=2,dl_dst=da:ef:14:39:cd:65,nw_src=10.0.0.2,nw_dst=10.0.0.1 actions=output:1
+ cookie=0x0, duration=353.389s, table=0, n_packets=565764, n_bytes=27190347184, idle_age=210, priority=100,ip,in_port=1,dl_dst=3a:51:15:99:c0:40,nw_src=10.0.0.1,nw_dst=10.0.0.3 actions=output:3
+ cookie=0x0, duration=353.385s, table=0, n_packets=390092, n_bytes=25746124, idle_age=210, priority=10,ip,in_port=3,dl_dst=da:ef:14:39:cd:65,nw_src=10.0.0.3,nw_dst=10.0.0.1 actions=output:1
+ cookie=0x0, duration=353.355s, table=0, n_packets=295747, n_bytes=15486416006, idle_age=171, priority=10,ip,in_port=2,dl_dst=3a:51:15:99:c0:40,nw_src=10.0.0.2,nw_dst=10.0.0.3 actions=output:3
+ cookie=0x0, duration=353.339s, table=0, n_packets=128250, n_bytes=8464648, idle_age=171, priority=10,ip,in_port=3,dl_dst=26:ac:f8:f9:88:96,nw_src=10.0.0.3,nw_dst=10.0.0.2 actions=output:2
+ cookie=0x0, duration=357.960s, table=0, n_packets=55, n_bytes=3798, idle_age=74, priority=0 actions=CONTROLLER:65509
