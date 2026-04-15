@@ -19,7 +19,7 @@ A Software-Defined Networking (SDN) project that implements **Quality of Service
 
 This project demonstrates how an SDN controller can enforce **real bandwidth-based QoS policies** without requiring any hardware-level configuration. The Ryu controller intercepts packets, classifies traffic based on source IP, and installs OpenFlow 1.3 flow rules tied to **OpenFlow meters** into the OVS switch.
 
-> ⚠️ **Important:** Flow priority alone does **not** limit bandwidth — it only controls which rule matches first. This project uses `OFPMeterBandDrop` to enforce actual rate limits at the switch level, giving `h1` (high-priority) unlimited bandwidth while capping `h2` (low-priority) at **1 Mbps**.
+>  **Important:** Flow priority alone does **not** limit bandwidth — it only controls which rule matches first. This project uses `OFPMeterBandDrop` to enforce actual rate limits at the switch level, giving `h1` (high-priority) unlimited bandwidth while capping `h2` (low-priority) at **1 Mbps**.
 
 ---
 
